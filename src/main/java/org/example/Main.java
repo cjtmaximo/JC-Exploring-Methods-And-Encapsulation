@@ -35,11 +35,15 @@ public class Main {
 //        findLargest();
 
         // Exercise 4 Mini Challenge: Access Specifiers
-        SmartDoor mySmartDoor = new SmartDoor();
-        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
-        mySmartDoor.lockDoor();
-        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
-        mySmartDoor.unlockDoor();
-        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
+//        SmartDoor mySmartDoor = new SmartDoor();
+//        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
+//        mySmartDoor.lockDoor();
+//        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
+//        mySmartDoor.unlockDoor();
+//        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
+
+        // Exercise 5 Mini Challenge: Static Methods and Variables
+        double myTemp = 25.0;
+        System.out.println(myTemp + " degrees C is " + Converter.celsiusToFahrenheit(myTemp) + " degrees F.");
     }
 }
