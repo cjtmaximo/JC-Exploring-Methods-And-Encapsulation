@@ -47,10 +47,18 @@ public class Main {
 //        System.out.println(myTemp + " degrees C is " + Converter.celsiusToFahrenheit(myTemp) + " degrees F.");
 
         // Exercise 6 Mini Challenge: Method Overloading
-        int celsiusTemp = 25; // int override
-        System.out.println(celsiusTemp + " degrees C is " + Converter.celsiusToFahrenheit(celsiusTemp) + " degrees F.");
+//        int celsiusTemp = 25; // int override
+//        System.out.println(celsiusTemp + " degrees C is " + Converter.celsiusToFahrenheit(celsiusTemp) + " degrees F.");
+//
+//        double fahrenheitTemp = 77.0;
+//        System.out.println(fahrenheitTemp + " degrees C is " + Converter.celsiusToFahrenheit(fahrenheitTemp) + " degrees F.");
 
-        double fahrenheitTemp = 77.0;
-        System.out.println(fahrenheitTemp + " degrees C is " + Converter.celsiusToFahrenheit(fahrenheitTemp) + " degrees F.");
+        // Exercise 7 Mini Challenge: Constructors and Constructor Overloading
+        Computer myComputer1 = new Computer();
+        Computer myComputer2 = new Computer("Asus");
+        Computer myComputer3 = new Computer("Acer", 32);
+        System.out.println("Computer 1: " + myComputer1.getSpecs());
+        System.out.println("Computer 2: " + myComputer2.getSpecs());
+        System.out.println("Computer 3: " + myComputer3.getSpecs());
     }
 }
