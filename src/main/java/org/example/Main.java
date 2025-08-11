@@ -54,11 +54,21 @@ public class Main {
 //        System.out.println(fahrenheitTemp + " degrees C is " + Converter.celsiusToFahrenheit(fahrenheitTemp) + " degrees F.");
 
         // Exercise 7 Mini Challenge: Constructors and Constructor Overloading
-        Computer myComputer1 = new Computer();
-        Computer myComputer2 = new Computer("Asus");
-        Computer myComputer3 = new Computer("Acer", 32);
-        System.out.println("Computer 1: " + myComputer1.getSpecs());
-        System.out.println("Computer 2: " + myComputer2.getSpecs());
-        System.out.println("Computer 3: " + myComputer3.getSpecs());
+//        Computer myComputer1 = new Computer();
+//        Computer myComputer2 = new Computer("Asus");
+//        Computer myComputer3 = new Computer("Acer", 32);
+//        System.out.println("Computer 1: " + myComputer1.getSpecs());
+//        System.out.println("Computer 2: " + myComputer2.getSpecs());
+//        System.out.println("Computer 3: " + myComputer3.getSpecs());
+
+        // Exercise 8 Mini Challenge: Encapsulation
+        User myUser = new User();
+        System.out.println("Attempting to set short password 'pass'...");
+        myUser.setPassword("pass");
+        System.out.println(myUser.getPassword());
+
+        System.out.println("Attempting to set valid password 'secure_password_123'...");
+        myUser.setPassword("secure_password_123");
+        System.out.println(myUser.getPassword());
     }
 }
