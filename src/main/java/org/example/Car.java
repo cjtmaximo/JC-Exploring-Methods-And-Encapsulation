@@ -1,7 +1,7 @@
 package org.example;
 
 public class Car {
-    // Exercise 1. Designing Methods
+    // Exercise 1: Designing Methods
     public void startEngine() {
         System.out.println("Engine has started.");
     }
@@ -16,7 +16,7 @@ public class Car {
 
     public static void main(String[] args) {
         /*
-        * Output prediction:
+        * Predicted output:
         * Engine has started.
         * The car is moving at 60 mph.
         * */
