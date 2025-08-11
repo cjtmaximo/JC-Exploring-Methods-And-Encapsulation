@@ -30,8 +30,16 @@ public class Main {
 //        System.out.println("Name after change: " + myStudent.name);
 
         // Exercise 3: Using Varargs
-        findLargest(10, 5, 25, 25);
-        findLargest(-5, -1, -10);
-        findLargest();
+//        findLargest(10, 5, 25, 25);
+//        findLargest(-5, -1, -10);
+//        findLargest();
+
+        // Exercise 4 Mini Challenge: Access Specifiers
+        SmartDoor mySmartDoor = new SmartDoor();
+        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
+        mySmartDoor.lockDoor();
+        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
+        mySmartDoor.unlockDoor();
+        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
     }
 }
