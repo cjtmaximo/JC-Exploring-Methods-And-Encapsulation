@@ -43,7 +43,14 @@ public class Main {
 //        System.out.println("Is the door locked? " + mySmartDoor.isLocked());
 
         // Exercise 5 Mini Challenge: Static Methods and Variables
-        double myTemp = 25.0;
-        System.out.println(myTemp + " degrees C is " + Converter.celsiusToFahrenheit(myTemp) + " degrees F.");
+//        double myTemp = 25.0;
+//        System.out.println(myTemp + " degrees C is " + Converter.celsiusToFahrenheit(myTemp) + " degrees F.");
+
+        // Exercise 6 Mini Challenge: Method Overloading
+        int celsiusTemp = 25; // int override
+        System.out.println(celsiusTemp + " degrees C is " + Converter.celsiusToFahrenheit(celsiusTemp) + " degrees F.");
+
+        double fahrenheitTemp = 77.0;
+        System.out.println(fahrenheitTemp + " degrees C is " + Converter.celsiusToFahrenheit(fahrenheitTemp) + " degrees F.");
     }
 }

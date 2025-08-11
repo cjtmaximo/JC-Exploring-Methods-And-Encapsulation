@@ -24,6 +24,6 @@ public class Car {
         myCar.startEngine();
         String status = myCar.drive(60);
         System.out.println(status);
-        myCar.turnOffEngine(); // Mini-Challenge: Should output "Engine has been turned off."
+        myCar.turnOffEngine(); // Exercise 1 Mini-Challenge: Should output "Engine has been turned off."
     }
 }
